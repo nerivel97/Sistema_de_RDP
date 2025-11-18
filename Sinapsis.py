@@ -296,7 +296,7 @@ class MovieRecommendationApp:
     
     def _ask_another_search(self):
         """Pregunta si hacer otra búsqueda"""
-        respuesta = input("\n🔍 ¿Buscar otra película? (s/n): ").strip().lower()
+        respuesta = input("\n ¿Buscar otra película? (s/n): ").strip().lower()
         return respuesta in ['s', 'si', 'y', 'yes']
     
     def _show_goodbye(self):
